@@ -37,6 +37,16 @@
         0 100px 80px rgba(0, 0, 0, 0.12);
     }
 
+    .d-block {
+      box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12);
+      margin: 10px;
+    }
+
     .navbar-brand {
       font-size: 2rem;
     }
@@ -84,6 +94,8 @@
 
     }
 
+
+
     .card {
       border: none
     }
@@ -109,6 +121,11 @@
 
     .display-4 {
       color: white;
+    }
+
+    .bg-card {
+      background: rgb(255, 255, 255);
+      background: linear-gradient(194deg, rgba(255, 255, 255, 1) 0%, rgba(223, 223, 223, 1) 100%);
     }
   </style>
 </head>
@@ -196,12 +213,12 @@
 
     <div class="p-2 bd-highlight">
       <!-- book start -->
-      <div class="card">
+      <div class="card bg-card">
         <div class="row g-0">
           <div class="col-5 col-sm-4 p-5 d-none d-lg-block">
-            <img src="media/knjigaalen.jpg" class="img-fluid w-100" alt="card-horizontal-image">
+            <img src="media/knjigaalen.jpg" class="img-fluid w-100 rounded-3 shadow-main" alt="card-horizontal-image">
           </div>
-          <div class="col-7 col-sm-8 p-5">
+          <div class="col-7 p-4 col-sm-8">
             <div class="card-body">
               <h5 class="card-title pt-4">Knjiga: Zakaj se rodimo in zakaj umremo</h5>
               <p class="card-text"><small class="text-muted">Izkušnje hipnoterapevta, jasnovidca in
