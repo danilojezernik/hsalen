@@ -173,20 +173,64 @@
     }
 
     .p-card {
-      padding: 4.5rem;
+      padding: 4.5rem 2rem 4.5rem 2rem;
     }
 
     @media (max-width: 950px) {
 
       .p-card {
-        padding: 3rem 2rem 3rem 2rem;
+        padding: 4rem 1rem 4rem 1rem;
       }
     }
 
     .card-img-top-card {
       max-width: 250px;
-      padding: 1rem 1rem 0 1rem;
       margin: 0 auto;
+    }
+
+    .btn-grad-noshadow {
+      background-image: linear-gradient(to right, #2c3e50 0%, #3498db 51%, #2c3e50 100%)
+    }
+
+    .btn-grad-noshadow {
+      margin: 10px;
+
+      text-align: center;
+      text-transform: uppercase;
+      transition: 0.5s;
+      background-size: 200% auto;
+      color: white;
+      display: block;
+    }
+
+    .btn-grad-noshadow:hover {
+      background-position: right center;
+      /* spremeni smer spremembe tukaj */
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .btn-grad {
+      background-image: linear-gradient(to right, #2c3e50 0%, #3498db 51%, #2c3e50 100%)
+    }
+
+    .btn-grad {
+      margin: 10px;
+
+      text-align: center;
+      text-transform: uppercase;
+      transition: 0.5s;
+      background-size: 200% auto;
+      color: white;
+      box-shadow: 0 0 20px #eee;
+      display: block;
+    }
+
+    .btn-grad:hover {
+      background-position: right center;
+      /* spremeni smer spremembe tukaj */
+      color: #fff;
+      text-decoration: none;
     }
   </style>
 </head>
@@ -282,6 +326,9 @@
                 <div class="card-body">
                   <h5 class="card-title">Hipnoza</h5>
                   <p class="card-text">Hipnoza je stanje globoke fizične in mentalne sproščenosti, kjer pridemo v stik s podazvestnim delom uma.</p>
+                  <div class="d-grid">
+                    <button class="btn btn-grad" type="button">Beri o hipnozi</button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -291,6 +338,9 @@
                 <div class="card-body">
                   <h5 class="card-title">Hipnoterapija</h5>
                   <p class="card-text">Hipnoterapija je orodje, s pomočjo katerega rečujemo globoko zakoreninjene težave na zelo hiter in učinkovit način.</p>
+                  <div class="d-grid">
+                    <button class="btn btn-grad" type="button">Beri o hipnoterapiji</button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -300,6 +350,9 @@
                 <div class="card-body">
                   <h5 class="card-title">Samohipnoza</h5>
                   <p class="card-text">S pomočjo samohipnoze lahko sami izboljšate vsa področja v svojem življenju na zelo edinstven in enostaven način.</p>
+                  <div class="d-grid">
+                    <button class="btn btn-grad" type="button">Beri o samohipnozi</button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -309,6 +362,9 @@
                 <div class="card-body">
                   <h5 class="card-title">Regresija</h5>
                   <p class="card-text">Regresija je orodje, s pomočjo katerega lahko dobite vpogled v preteklost svojega življenja, v tem ali prejšnjem življenju.</p>
+                  <div class="d-grid">
+                    <button class="btn btn-grad" type="button">Beri o regresiji</button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -318,6 +374,9 @@
                 <div class="card-body">
                   <h5 class="card-title">Jasnovidnost</h5>
                   <p class="card-text">Jasnovidnost nam omogoča pogled v preteklost, natančen pogled v sedanjost in prihodnost.</p>
+                  <div class="d-grid">
+                    <button class="btn btn-grad" type="button">Beri o jasnovidnosti</button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -327,6 +386,9 @@
                 <div class="card-body">
                   <h5 class="card-title">Medijstvo</h5>
                   <p class="card-text">Dobesedno se pogovarjamo z osebami iz onostranstva ali z tavajočimi dušami. Lahko se tudi pogovarjamo direktno z našimi vodniki.</p>
+                  <div class="d-grid">
+                    <button class="btn btn-grad" type="button">Beri o medijstvu</button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -344,7 +406,9 @@
             <div class="card-body text-center text-color">
               <h5 class="card-title">Zakaj se rodimo in zakaj umremo</h5>
               <p class="card-text">Uspešnica, ki je lahko v vaših rokah in vam spremeni življenje. Že ob samem branju vas bo prebudilo.</p>
-              <a href="#" class="btn btn-primary">Kupi na Misteriji.si</a>
+              <div class="d-grid">
+                <button class="btn btn-grad-noshadow" type="button">Kupi knjigo</button>
+              </div>
             </div>
 
           </div>
@@ -386,7 +450,9 @@
             <div class="card-body text-color">
               <h5 class="card-title">Zakaj se rodimo in zakaj umremo</h5>
               <p class="card-text">Uspešnica, ki je lahko v vaših rokah in vam spremeni življenje. Že ob samem branju vas bo prebudilo.</p>
-              <a href="#" class="btn btn-primary">Kupi na Misteriji.si</a>
+              <div class="d-grid">
+                <button class="btn btn-grad-noshadow" type="button">Kupi knjigo</button>
+              </div>
             </div>
 
           </div>
