@@ -78,6 +78,10 @@
       padding: 0 !important;
     }
 
+    h5 {
+      font-size: 2rem;
+    }
+
     .container {
       margin-top: 5rem;
       margin-bottom: 5rem;
@@ -134,8 +138,8 @@
     }
 
     .bg-card {
-      background: rgb(255, 255, 255);
-      background: linear-gradient(194deg, rgba(255, 255, 255, 1) 0%, rgba(223, 223, 223, 1) 100%);
+      background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(223,223,223,1) 100%);
     }
 
     .card-body {
@@ -144,6 +148,7 @@
 
     .card-img-top {
       max-width: 350px;
+      padding: 2rem;
     }
 
     .blockquote-footer {
@@ -163,6 +168,18 @@
         padding: 50px;
       }
     }
+
+    .p-card {
+      padding: 4.5rem;
+    }
+
+    @media (max-width: 950px) {
+
+      .p-card {
+        padding: 3rem 1rem 3rem 1rem;
+      }
+    }
+
   </style>
 </head>
 
@@ -248,15 +265,60 @@
     </div>
 
     <div class="bd-highlight">
+      <div class="row p-card">
+<div class="col">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col ">
+    <div class="card bg-card shadow-main h-100">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card bg-card shadow-main h-100">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a short card.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card bg-card shadow-main h-100">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card bg-card shadow-main h-100">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+      </div>
+    </div>
+    <div class="bd-highlight">
 
       <div class="card bg-card">
         <div class="row g-0">
           <div class="col-6 col-sm-4 p-5 d-none d-lg-block shadow-main bg-color">
             <img src="media/zakaj_se_rodimo_in_zakaj_umremo.png" class="card-img-top" alt="...">
             <div class="card-body text-center text-color">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Zakaj se rodimo in zakaj umremo</h5>
+              <p class="card-text">Uspešnica, ki je lahko v vaših rokah in vam spremeni življenje. Že ob samem branju vas bo prebudilo.</p>
+              <a href="#" class="btn btn-primary">Kupi na Misteriji.si</a>
             </div>
 
           </div>
