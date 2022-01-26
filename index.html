@@ -137,10 +137,16 @@
     }
 
     .bg-img {
-      background-image: url(media/waybg.jpg);
-      background-size: cover;
+      background-image: url(media/waybg.png);
+      background-size: contain;
       background-repeat: no-repeat;
-      background-position: bottom;
+      background-attachment: fixed;
+      background-position: center;
+    }
+
+    .bg-book {
+      background-image: url(media/bgcloud.jpg);
+      background-size: cover;
     }
 
     .navbar-toggler {
@@ -544,7 +550,7 @@
 
                             <p>Jasnovidnost nam omogoča pogled v preteklost, natančen pogled v sedanjost in prihodnost. Razkriva svet okoli nas, daje odgovore na vprašanja klienta. Klient lahko na ta način izve vse o sebi in sicer:</p>
 
-                            <dl>
+                            <ul>
                               <li>namen utelešenja in lekcije</li>
                               <li>katero utelešenje ima in koliko jih bo še imel, ter kaj vse bo v naslednjem življenju in kdo bo,seveda še vse ostalo</li>
                               <li>katere osebe so danes tukaj iz preteklih življenj in v kateri vlogi</li>
@@ -552,7 +558,7 @@
                               <li>prava pot, neprava pot( privatno, poslovno, zdravstveno, in na splošno prava življenjska pot)</li>
                               <li>zdravje, kariera, finance</li>
                               <li>skratka čisto vsi elementi našega življenja, našega bivanja</li>
-                            </dl>
+                            </ul>
 
                             <p>Temu rečem, krvna slika. Ko ima človek enkrat krvno sliko oz. resnico o sebi, potem ve zakaj njegovo življenje poteka tako kot poteka.</p>
 
@@ -637,7 +643,7 @@
 
       <div class="card bg-card">
         <div class="row g-0">
-          <div class="col-6 col-sm-4 p-5 d-none d-lg-block shadow-main bg-color">
+          <div class="col-6 col-sm-4 p-5 d-none d-lg-block shadow-main bg-book">
             <img src="media/zakaj_se_rodimo_in_zakaj_umremo.png" class="card-img-top" alt="...">
             <div class="card-body text-center text-color">
               <h5 class="card-title">Zakaj se rodimo in zakaj umremo</h5>
