@@ -138,15 +138,17 @@
 
     .bg-img {
       background-image: url(media/waybg.png);
-      background-size: contain;
+      background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed;
-      background-position: center;
     }
 
     .bg-book {
-      background-image: url(media/bgcloud.jpg);
+      background-image: url(media/bgcloud.png);
       background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
     }
 
     .navbar-toggler {
@@ -175,7 +177,7 @@
     }
 
     .text-color {
-      color: white;
+      color: black;
     }
 
     @media (max-width: 950px) {
@@ -231,7 +233,6 @@
 
     .btn-grad {
       margin: 10px;
-
       text-align: center;
       text-transform: uppercase;
       transition: 0.5s;
@@ -687,7 +688,7 @@
 
             </div>
           </div>
-          <div class="col-6 col-sm-4 p-5 d-lg-none shadow-main bg-color text-center">
+          <div class="col-6 col-sm-4 p-5 d-lg-none shadow-main bg-book text-center">
             <img src="media/zakaj_se_rodimo_in_zakaj_umremo.png" class="card-img-top" alt="...">
             <div class="card-body text-color">
               <h5 class="card-title">Zakaj se rodimo in zakaj umremo</h5>
