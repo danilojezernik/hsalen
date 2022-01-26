@@ -100,10 +100,6 @@
       justify-content: center;
     }
 
-    .p-2 {
-      padding: 0 !important;
-    }
-
     h5 {
       font-size: 2rem;
     }
@@ -169,10 +165,6 @@
     .display-4 {
       color: black;
       text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
-    }
-
-    .card-body {
-      padding: 1.5rem;
     }
 
     .card-img-top {
@@ -288,66 +280,61 @@
 </head>
 
 <body>
+  <!-- nav start -->
+  <nav class="container navbar p-2 navbar-light bg-white sticky-top">
+    <div class="container-fluid">
+      <img src="media/logo-sm.png" class="img-thumbnail" alt="...">
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="media/logo.png" class="img-thumbnail" alt="...">
+          </h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Domov</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Hipnoza
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                <li><a class="dropdown-item" href="#">Hipnoterapija</a></li>
+                <li><a class="dropdown-item" href="#">Samohipnoza</a></li>
+                <li><a class="dropdown-item" href="#">Regresija</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Jasnovidnost</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Medijstvo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">O meni</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Kontakt</a>
+            </li>
 
-  <!-- middle column main -->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- nav end -->
+
   <div class="container shadow-main bg-body">
     <div class="d-flex flex-column bd-highlight">
-      <div class="p-2 bd-highlight sticky-top">
-        <!-- nav start -->
-
-        <nav class="navbar navbar-light bg-white">
-          <div class="container-fluid">
-            <img src="media/logo-sm.png" class="img-thumbnail" alt="...">
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-              <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="media/logo.png" class="img-thumbnail" alt="...">
-                </h5>
-                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-              </div>
-              <div class="offcanvas-body">
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Domov</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Hipnoza
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                      <li><a class="dropdown-item" href="#">Hipnoterapija</a></li>
-                      <li><a class="dropdown-item" href="#">Samohipnoza</a></li>
-                      <li><a class="dropdown-item" href="#">Regresija</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Jasnovidnost</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Medijstvo</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">O meni</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Kontakt</a>
-                  </li>
-
-                </ul>
-              </div>
-            </div>
-          </div>
-        </nav>
-
-        <!-- nav end -->
-      </div>
-
-      <div class="p-2 bd-highlight bg-img shadow-main height">
+      <div class="bd-highlight bg-img shadow-main height">
         <!-- carousel start -->
         <div class="row m-4 pt-5 align-items-center">
           <div class="col-7 ">
@@ -374,9 +361,9 @@
       <div class="row p-card text-center">
         <div class="col">
           <div class="row row-cols-1 row-cols-lg-3 g-4">
-            <div class="col ">
+            <div class="col">
               <div class="card bg-card shadow-main h-100">
-                <img src="media/hipnoza-icon.png" class="card-img-top-card" alt="...">
+                <img src="media/hipnoza-icon.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Hipnoza</h5>
                   <p class="card-text">Hipnoza je stanje globoke fizične in mentalne sproščenosti, kjer pridemo v stik s podazvestnim delom uma.</p>
@@ -667,7 +654,7 @@
 
       <div class="card bg-card">
         <div class="row g-0">
-          <div class="col-6 col-sm-4 p-5 d-none d-lg-block shadow-main bg-book">
+          <div class="col-6 col-sm-4 d-none d-lg-block shadow-main bg-book">
             <img src="media/zakaj_se_rodimo_in_zakaj_umremo.png" class="card-img-top" alt="...">
             <div class="card-body text-center text-color">
               <h5 class="card-title">Zakaj se rodimo in zakaj umremo</h5>
@@ -711,7 +698,7 @@
 
             </div>
           </div>
-          <div class="col col-sm-4 p-5 m-2 d-lg-none shadow-main bg-book text-center">
+          <div class="col col-sm-4 p-5 d-lg-none shadow-main bg-book text-center">
             <img src="media/zakaj_se_rodimo_in_zakaj_umremo.png" class="card-img-top" alt="...">
             <div class="card-body text-color">
               <h5 class="card-title">Zakaj se rodimo in zakaj umremo</h5>
