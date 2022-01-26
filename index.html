@@ -160,7 +160,6 @@
 
     .card-img-top {
       max-width: 350px;
-      padding: 2rem;
     }
 
     .blockquote-footer {
@@ -250,6 +249,10 @@
     .accordion-button:not(.collapsed) {
       color: #fff;
       background-image: linear-gradient(to right, #2c3e50 0%, #3498db 51%, #2c3e50 100%);
+    }
+
+    .modal-body {
+      text-align: left;
     }
   </style>
 </head>
@@ -348,7 +351,30 @@
                   <h5 class="card-title">Hipnoza</h5>
                   <p class="card-text">Hipnoza je stanje globoke fizične in mentalne sproščenosti, kjer pridemo v stik s podazvestnim delom uma.</p>
                   <div class="d-grid">
-                    <button class="btn btn-grad" type="button">Beri o hipnozi</button>
+
+                    <button class="btn btn-grad" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">Kaj je hipoza?</button>
+                    <!-- start Modal: Kaj je hipnoza -->
+                    <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-scrollable">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">Kaj sploh je hipnoza?</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <p>Hipnoza je dovoljeno stanje iz strani klienta, da preskoči kritični faktor(nevidno umsko mejo) med zavestjo in podzavestjo. V stanju hipnoze ima človek nivo zavedanja vklopljen in se popolnoma vsega zaveda. Zaveda se
+                              svojega telesa, svojih misli, okolice (zvoki v okolici), zaveda se glasu terapevta. Klient ima popolno kontrolo nad svojim telesom in umom in se tudi takoj vsega spominja, kaj se je se je med dovoljenim stanjem v hipnozi
+                              dogajalo. Odvečna je bojazen, da je hipnoza nekaj mističnega in paranormalnega. Hipnoza je znanstvena veja, katera se v svetu vedno več uporablja, tudi v zdravstvene namene, predvsem pa za izboljšanje kvalitete življenja
+                              na vseh področjih.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zapri</button>
+                            <a class="btn btn-primary" href="#" role="button">Kako Vam lahko pomagam?</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end Modal -->
                   </div>
                 </div>
               </div>
@@ -360,7 +386,35 @@
                   <h5 class="card-title">Hipnoterapija</h5>
                   <p class="card-text">Hipnoterapija je orodje, s pomočjo katerega rečujemo globoko zakoreninjene težave na zelo hiter in učinkovit način.</p>
                   <div class="d-grid">
-                    <button class="btn btn-grad" type="button">Beri o hipnoterapiji</button>
+
+                    <button class="btn btn-grad" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">Kaj je hipnoterapija?</button>
+                    <!-- start Modal: Kaj je hipnoza -->
+                    <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-scrollable">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">Kaj sploh je hipnoterapija?</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <p>Hipnoterapija je zelo učinkovito sredstvo oz. način odkrivanja in reševanja neprijetnosti vseh vrst v življenju. Namen hipnoterapije je odkriti pravi vzrok, torej 1. vzrok-dogodek, kateri je povzročil določene
+                              neprijetnosti, bodisi fizičnega ali psihomatskega izvora. Namen je, da se ta vzrok odkrije, ozavesti, pozdravi in izniči-odpravi do konca življenja. Ko odkrijemo in odpravimo 1. dogodek oz. vzrok, kateri je povzročil
+                              neprijetnosti, posledično izginejo vse težave in neprijetnosti, trajno, za zmeraj. Neprijetnosti, kot so razne anksioznosti, strahovi, fobije spolne težave, fizične bolečine, pre najedanje, kajenje, alkoholizem,
+                              bruksizem (stiskanje čeljusti), anoreksija, krivda, kompleks manjvrednosti, perfekcionizem, izguba manjvrednosti, izguba samozavesti, slaba samopodoba, slaba samoljubezen, uničeno samospoštovanje, razne spolne zlorabe v
+                              otroštvu, izguba koncentracije, izguba spomina, astma, glavoboli in hude migrene, grizenje nohtov, jeclanje, strah pred javnimi nastopi, močenje postelje, nespečnost, napetosti, nedoseganje poslovnih in prodajnih
+                              rezultatov, izguba samodiscipline in vztrajnosti, srbenje, itd… </p>
+
+                            <p>Vse zgoraj našteto in še več, so samo posledice prvotnih vzrokov oz. dogodkov. Ti vzroki so v več kot 95% globoko v naši podzavesti. Hipnoterapija je namenjena, da odkrijemo vzroke za zgoraj naštete
+                              težave-neprijetnosti, ter jih odpravimo za zmeraj. Hipnoterapija se pogosto uporablja za izboljšanje športnih dosežkov-rezultatov in pri delu z otroci.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zapri</button>
+                            <a class="btn btn-primary" href="#" role="button">Kako Vam lahko pomagam?</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end Modal -->
                   </div>
                 </div>
               </div>
@@ -372,7 +426,36 @@
                   <h5 class="card-title">Samohipnoza</h5>
                   <p class="card-text">S pomočjo samohipnoze lahko sami izboljšate vsa področja v svojem življenju na zelo edinstven in enostaven način.</p>
                   <div class="d-grid">
-                    <button class="btn btn-grad" type="button">Beri o samohipnozi</button>
+
+                    <button class="btn btn-grad" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">Kaj je samohipnoza?</button>
+                    <!-- start Modal: Kaj je hipnoza -->
+                    <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-scrollable">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">Kaj sploh je samohipnoza?</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <p>Samohipnoza je učinkovita in moderna tehnika današnjega časa. Metoda samohipnoze ima zelo učinkovit efekt na naše telo in misli. Zelo lepo in enostavno človeka naučimo samohipnoze, da lahko potem sam kadarkoli želi vstopa v hipnozo.. </p>
+
+<p>Samohipnoza se lahko uporablja za sproščanje ali pa za sugestije. Sugestije lahko človek sam izbira in si jih skreira, ter daje sam sebi tisto, kar želi oz. trenutno najbolj potrebuje. Ponavadi se samohipnoza uporablja za izboljšanje in doseganje rezultatov, bodisi v poklicnem in zasebnem življenju. Ljudje smo si različni in vsak posameznik ve, kaj trenutno najbolj potrebuje.</p>
+<h5>Kje vam samohipnoza pomaga?</h5><hr>
+                            <p>Nekaj primerov, kateri opisujejo, kaj vse lahko s samohipnozo pridobimo:</p>
+
+<p>Izboljšamo samopodobo, samozavest, ljubezen, spoštovanje, izboljšamo športne in rekreativne rezultate, razvijemo samodisciplino in vztrajnost, se lažje učimo tujih jezikov, opustimo kajenje in druge substance, lažje ohranjamo telesno težo, izboljšamo učenje, spomin, koncentracijo , boljše spimo, imamo lepše sanje, dvig energije, dosegamo srečnejše in sproščeno stanje, in še mnogo tega…</p>
+
+<p>Najbolj pomembno je, da sami čez čas opazimo rezultate in smo zadovoljni sami s seboj.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zapri</button>
+                            <a class="btn btn-primary" href="#" role="button">Kako Vam lahko pomagam?</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end Modal -->
+
                   </div>
                 </div>
               </div>
@@ -486,7 +569,7 @@
 
       <div class="row" style="padding: 4rem;">
         <div class="col">
-        <div class="accordion" id="accordionExample">
+          <div class="accordion" id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
