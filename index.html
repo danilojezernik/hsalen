@@ -59,13 +59,7 @@
     }
 
     .shadow-main {
-      box-shadow:
-        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-        0 12.5px 10px rgba(0, 0, 0, 0.06),
-        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-        0 60px 40px rgba(0, 0, 0, 0.12);
+      box-shadow: -1px 15px 43px -17px rgba(0,0,0,1);
     }
 
     .d-block {
@@ -75,7 +69,7 @@
         0 22.3px 17.9px rgba(0, 0, 0, 0.072),
         0 41.8px 33.4px rgba(0, 0, 0, 0.086),
         0 100px 80px rgba(0, 0, 0, 0.12);
-      margin: 10px;
+        max-height: 650px;
     }
 
     .navbar-brand {
@@ -333,29 +327,19 @@
   <!-- nav end -->
 
   <div class="container shadow-main bg-body">
-    <div class="d-flex flex-column bd-highlight">
-      <div class="bd-highlight bg-img shadow-main height">
-        <!-- carousel start -->
-        <div class="row m-4 pt-5 align-items-center">
-          <div class="col-7 ">
-            <div class="container">
-              <figure class="text-start">
-                <blockquote class="blockquote">
-                  <h1 class="display-4">Sprejmite preteklost, spremenite sedanjost in izberite prihodnost!</h1>
-                </blockquote>
-                <figcaption class="blockquote-footer">
-                  Vaše življenje <cite title="Source Title">vaša izbira!</cite>
-                </figcaption>
-              </figure>
-
-            </div>
-          </div>
-          <div class="col-5">
-            <img src="media/hipnoterapevt_alen.png" class="img-fluid mx-auto" alt="...">
-          </div>
-        </div>
-      </div>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="media/hipnoza.jpg" class="d-block w-100" alt="...">
     </div>
+    <div class="carousel-item">
+      <img src="media/helpingall.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="media/waybg.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div>
 
     <div class="bd-highlight">
       <div class="row p-card text-center">
@@ -363,7 +347,7 @@
           <div class="row row-cols-1 row-cols-lg-3 g-4">
             <div class="col">
               <div class="card bg-card shadow-main h-100">
-                <img src="media/hipnoza-icon.png" class="card-img-top" alt="...">
+                <img src="media/hipnoza-icon.png" class="card-img-top-card" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Hipnoza</h5>
                   <p class="card-text">Hipnoza je stanje globoke fizične in mentalne sproščenosti, kjer pridemo v stik s podazvestnim delom uma.</p>
@@ -654,7 +638,7 @@
 
       <div class="card bg-card">
         <div class="row g-0">
-          <div class="col-6 col-sm-4 d-none d-lg-block shadow-main bg-book">
+          <div class="col-5 col-sm-4 d-none d-lg-block shadow-main  text-center">
             <img src="media/zakaj_se_rodimo_in_zakaj_umremo.png" class="card-img-top" alt="...">
             <div class="card-body text-center text-color">
               <h5 class="card-title">Zakaj se rodimo in zakaj umremo</h5>
